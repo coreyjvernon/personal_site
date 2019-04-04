@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/trees.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -59,21 +59,28 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: white;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
+header .banner-text h2 {
+   color: white;
+   font: 'librebaskerville-bold', serif;
+}
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   margin-top: 10em !important;
+   font: 18px/1.9em 'librebaskerville-bold', serif;
+   color: black;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   border: solid 2px black;
+   background:rgba(255,255,255,0.5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: black;
 }
 header .banner-text hr {
    width: 60%;
@@ -325,49 +332,83 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
 .css {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 90%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.javascript {
+   width: 75%;
+   -moz-animation: javascript 2s ease;
+   -webkit-animation: javascript 2s ease;
+}
+.reactjs {
+   width: 50%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}
+.ruby {
+   width: 65%;
+   -moz-animation: ruby 2s ease;
+   -webkit-animation: ruby 2s ease;
+}
+.rails {
+   width: 50%;
+   -moz-animation: rails 2s ease;
+   -webkit-animation: rails 2s ease;
+}
+.python {
+   width: 30%;
+   -moz-animation: python 2s ease;
+   -webkit-animation: python 2s ease;
+}
+.sinatra {
+   width: 20%;
+   -moz-animation: sinatra 2s ease;
+   -webkit-animation: sinatra 2s ease;
+}
+.sql {
+   width: 15%;
+   -moz-animation: sql 2s ease;
+   -webkit-animation: sql 2s ease;
+}
+.scrum {
+   width: 50%;
+   -moz-animation: scrum 2s ease;
+   -webkit-animation: scrum 2s ease;
+}
+.aws {
+   width: 20%;
+   -moz-animation: aws 2s ease;
+   -webkit-animation: aws 2s ease;
+}
+.adobe {
+   width: 80%;
+   -moz-animation: adobe 2s ease;
+   -webkit-animation: adobe 2s ease;
+}
+.nodejs {
+   width: 40%;
+   -moz-animation: nodejs 2s ease;
+   -webkit-animation: nodejs 2s ease;
+}
+.agile {
+   width: 60%;
+   -moz-animation: agile 2s ease;
+   -webkit-animation: agile 2s ease;
+}
+.microsoft {
+   width: 70%;
+   -moz-animation: microsoft 2s ease;
+   -webkit-animation: microsoft 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+
 @-moz-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -376,23 +417,61 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+@-moz-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-moz-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes ruby {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+ @-moz-keyframes rails {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+ }
+ @-moz-keyframes sinatra {
+   0%   { width: 0px;  }
+   100% { width: 20%;  }
+ }
+ @-moz-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 15%;  }
+ }
+ @-moz-keyframes scrum {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 20%;  }
+ }
+ @-moz-keyframes adobe {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-moz-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
+ @-moz-keyframes agile {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-moz-keyframes microsoft {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+
+
 @-webkit-keyframes css {
   0%   { width: 0px;  }
   100% { width: 90%;  }
@@ -401,10 +480,58 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
+@-webkit-keyframes javascript {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-webkit-keyframes reactjs {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes ruby {
+   0%   { width: 0px;  }
+   100% { width: 65%;  }
+ }
+ @-webkit-keyframes rails {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes python {
+   0%   { width: 0px;  }
+   100% { width: 30%;  }
+ }
+ @-webkit-keyframes sinatra {
+   0%   { width: 0px;  }
+   100% { width: 20%;  }
+ }
+ @-webkit-keyframes sql {
+   0%   { width: 0px;  }
+   100% { width: 15%;  }
+ }
+ @-webkit-keyframes scrum {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes aws {
+   0%   { width: 0px;  }
+   100% { width: 20%;  }
+ }
+ @-webkit-keyframes adobe {
+   0%   { width: 0px;  }
+   100% { width: 80%;  }
+ }
+ @-webkit-keyframes nodejs {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
+ @-webkit-keyframes agile {
+   0%   { width: 0px;  }
+   100% { width: 60%;  }
+ }
+ @-webkit-keyframes microsoft {
+   0%   { width: 0px;  }
+   100% { width: 70%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
