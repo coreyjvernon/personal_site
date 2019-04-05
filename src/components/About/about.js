@@ -43,7 +43,7 @@ export default class Header extends Component {
               </div>
               <div className="columns download">
                 <p>
-                  <a href="https://zety.com/mycv/coreyvernon" className="button"><i className="fa fa-download" />Download Resume</a>
+                  <a href="https://zety.com/mycv/coreyvernon" target="_blank" className="button"><i className="fa fa-download" />Download Resume</a>
                 </p>
               </div>
             </div> 
